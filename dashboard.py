@@ -19,7 +19,6 @@ if fl is not None:
     st.write(filename)
     df = pd.read_excel(filename)
 else:
-    os.chdir(r"C:\Users\Administrator\PycharmProjects\DashBoard_interactive_st")
     df = pd.read_excel("Sample - Superstore.xls")
 
 col1, col2 = st.columns(2)
